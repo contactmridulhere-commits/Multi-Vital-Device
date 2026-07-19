@@ -6,29 +6,7 @@ sensor modules on a 320x240 SPI TFT.
 Measures heart rate two independent ways and cross-checks them, derives heart
 rate variability and respiration rate from the same signals, and reports
 temperature and relative alcohol response.
-
-> Replace this line with a photo of the finished build.
-
 ---
-
-## Not a medical device
-
-This is an engineering project. It is not a medical device, it is not
-certified, and it must not be used for diagnosis, monitoring of any actual
-health condition, or any decision about a person's care.
-
-Specifically:
-
-- **SpO2 is an uncalibrated estimate** until you fit it against a reference
-  pulse oximeter. The default coefficients are literature placeholders. The
-  display marks it `estimate only` until calibrated.
-- **The alcohol reading is not blood alcohol content** and cannot be. It is
-  Rs/R0 — the MQ3's resistance relative to its own clean-air baseline. Deriving
-  BAC requires a certified breathalyser to calibrate against and a controlled
-  breath delivery protocol, neither of which exists here.
-- **Temperature is surface temperature.** Skin is not core body temperature.
-- **The ECG trace is not diagnostic.** The display uses auto-fitted gain rather
-  than a calibrated mV/division, so amplitudes cannot be measured off screen.
 
 The firmware is built around a strict rule: every displayed number is either
 measured or absent. Nothing is smoothed into existence, no stale value is left
@@ -298,7 +276,7 @@ update instead of redrawing the whole strip.
 
 ## Credits
 
-Built by **\<Your Name\>** and **\<Teammate Name\>**.
+Built by Mridul Sharma and Kaushiki Shukla.
 
 > Describe the split here — who did the hardware, who did the firmware, who did
 > the enclosure.

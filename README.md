@@ -286,11 +286,6 @@ Third-party libraries, each under its own license:
 - [MAX3010x](https://github.com/eepj/MAX3010x) by eepj
 - [Adafruit MLX90614](https://github.com/adafruit/Adafruit-MLX90614-Library)
 
-> Before publishing: check whether `filters.h` started from the example filter
-> header shipped with the MAX3010x library. The original class names
-> (`LowPassFilter`, `HighPassFilter`, `Differentiator`, `MovingAverageFilter`,
-> `MinMaxAvgStatistic`) match it. If it did, keep that library's copyright
-> notice and credit it here.
 
 ---
 

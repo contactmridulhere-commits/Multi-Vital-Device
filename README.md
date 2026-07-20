@@ -106,7 +106,7 @@ Install through the Arduino Library Manager:
 - `MAX3010x` by eepj
 - `Adafruit MLX90614`
 
-Each carries its own license — see [Credits](#credits).
+Each carries its own license: see [Credits](#credits).
 
 ---
 
@@ -160,7 +160,7 @@ broken waveform.
 
 Set this correctly. Mains hum survives the low-pass and is then amplified by the
 R-peak detector's derivative stage, which walks the detected peak position by
-several samples per beat and puts a floor of roughly 25 ms under RMSSD — inside
+several samples per beat and puts a floor of roughly 25 ms under RMSSD, inside
 the physiological range, so HRV becomes noise wearing a number.
 
 ### ECG grid
@@ -170,7 +170,7 @@ the physiological range, so HRV becomes noise wearing a number.
 ```
 
 Vertical divisions are 16 columns apart, which at 83.3 columns/second is 192 ms
-— close to a clinical monitor's 200 ms major division, but not equal to it. Do
+, close to a clinical monitor's 200 ms major division, but not equal to it. Do
 not measure intervals off the screen assuming 200.
 
 ---
@@ -219,7 +219,7 @@ Calibration persists to NVS.
 ### Calibrating SpO2 properly
 
 Hold a reference pulse oximeter on one finger and this device on another. Run
-`spo2 ref <value>` at three or more genuinely different saturation levels — a
+`spo2 ref <value>` at three or more genuinely different saturation levels, a
 short breath-hold will move it. Then `spo2 fit`. The display switches from
 `estimate only` to `calibrated`.
 

@@ -278,8 +278,7 @@ update instead of redrawing the whole strip.
 
 Built by Mridul Sharma and Kaushiki Shukla.
 
-> Describe the split here — who did the hardware, who did the firmware, who did
-> the enclosure.
+Mridul Did the most of the Hardware build, While Kaushiki Helped in guiding the right tools and parts and helping with what to integrate.
 
 Third-party libraries, each under its own license:
 
